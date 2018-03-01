@@ -1,0 +1,35 @@
+<!--
+  Generated template for the UniversitarioResponderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons left>
+        <button ion-button icon-only (click)="openMenu()">
+            <ion-icon name="menu"></ion-icon>
+        </button>
+    </ion-buttons>
+    <ion-title>Responder</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+	<div class="inputs center">
+		<span>Respuesta:</span>
+		<span><strong>En la biblioteca</strong></span>
+		<br><br><br>
+		<span>Tu respuesta:</span>
+		<textarea rows="6" cols="40"></textarea>
+	</div>
+	<div class="center">
+		<button class="buttons" (click)="GoHome()">Enviar</button>
+	</div>
+
+</ion-content>

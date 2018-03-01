@@ -1,0 +1,35 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/imgs/ticket-logo.png">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Inicio de Sesión
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<div class="user-img">
+		<img src="assets/imgs/user-100.png">
+	</div>
+	<div class="inputs center">
+		<span>Correo</span>
+		<input type="email" name="email" [(ngModel)]="usuario" placeholder="@ucol.mx">
+		<span>Contraseña</span>
+		<input type="password" name="password" placeholder="Contraseña">
+	</div>
+	<div class="center">
+		<button class="buttons" (click)="login()">Iniciar sesión</button>
+		<button class="buttons" (click)="login2()">Iniciar Biblio</button>
+		<button class="buttons" (click)="login3()">Iniciar Super</button>
+		<button class="buttons" (click)="login4()">Iniciar Admin</button>
+		<button class="buttons" (click)="registro()">Registrarme</button>
+	</div>
+</ion-content>

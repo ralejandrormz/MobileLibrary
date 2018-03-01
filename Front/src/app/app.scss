@@ -1,0 +1,79 @@
+ion-title{
+	text-align:center;
+}
+
+.user-img{
+	text-align:center;
+}
+
+.user-name{
+	font-size:16px;
+}
+
+.center{
+	text-align:center;
+}
+
+.side-bar{
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+.inputs{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.inputs input, select{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 282px;
+	height: 40px;
+	font-family: Roboto-Light;
+	font-size: 15px;
+	color: #727272;
+	background-color: #FFFFFF;
+	padding-left: 15px;
+}
+
+.inputs span{
+	width: 297px;
+	height: 34px;
+	font-family: Roboto-Regular;
+	font-size: 21px;
+	color: #6E6E6E;
+}
+
+.buttons{
+	margin-bottom:20px;
+	width: 297px;
+	height: 41px;
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #007DFF;
+	border: 1px solid #007DFF;
+	border-radius: 4px;
+}
+
+.pointer{
+	cursor:pointer;
+}
+
+.ult-tickets{
+	margin-left:20px;
+	font-size:15px;
+}
+//ion-menu[type=reveal] {
+//    z-index: 11;
+//}
+
+textarea{resize:none;}
+
+/*.bottom{
+	margin-top:40px;
+}*/
+
+.red{
+	background-color:red;
+}
